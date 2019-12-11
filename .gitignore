@@ -2,6 +2,11 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.code-workspace
+*.zip
+*.txt
+/wordcloud/word_cloud
+.vscode/
 
 # C extensions
 *.so
