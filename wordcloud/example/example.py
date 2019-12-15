@@ -1,4 +1,5 @@
 import codecs
+
 import matplotlib.pyplot as plt
 import MeCab
 from wordcloud import WordCloud
@@ -6,7 +7,7 @@ from wordcloud import WordCloud
 tagger = MeCab.Tagger('-Owakati')
 text = '今日はいい天気ですね'
 result = tagger.parse(text)
-print(result)
+print(result)5
 
 tagger = MeCab.Tagger('-Ochasen')
 result = tagger.parse(text)

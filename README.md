@@ -6,7 +6,7 @@
 - Windows Subsystem for Linux Ubuntu 18.04  
 
 WSLを入れただけの状態だとmatplotlibが描画されないことがあるので、VcXsrvを入れてることをお勧めします。  
-参考サイト:[WSLでmatplotlibやgnuplotでプロットができない](https://qiita.com/ryoi084/items/c4339996c50c0cf39df4)をするといいです。
+参考サイト:[WSLでmatplotlibやgnuplotでプロットができない](https://qiita.com/ryoi084/items/c4339996c50c0cf39df4)
 
 ------------
 ## wordcloud
