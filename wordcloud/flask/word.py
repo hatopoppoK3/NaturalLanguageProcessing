@@ -1,4 +1,3 @@
-import matplotlib.pyplot as plt
 import MeCab
 from wordcloud import WordCloud
 
@@ -25,6 +24,4 @@ def create_cloud(texts, language):
         min_font_size=4,
         collocations=False
     ).generate(input_texts)
-    plt.imshow(output_image)
-    plt.axis("off")
-    plt.savefig('./static/image/wordcloud.png')
+    output_image.to_file('./static/image/wordcloud.png')
