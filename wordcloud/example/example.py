@@ -7,7 +7,7 @@ from wordcloud import WordCloud
 tagger = MeCab.Tagger('-Owakati')
 text = '今日はいい天気ですね'
 result = tagger.parse(text)
-print(result)5
+print(result)
 
 tagger = MeCab.Tagger('-Ochasen')
 result = tagger.parse(text)
