@@ -2,11 +2,6 @@
 __pycache__/
 *.py[cod]
 *$py.class
-*.code-workspace
-*.zip
-*.txt
-/wordcloud/word_cloud
-.vscode/
 
 # C extensions
 *.so
@@ -132,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# add
+*.code-workspace
+*.zip
+*.txt
+/wordcloud/word_cloud
+.vscode/
+/COTOHA/client.json
+/COTOHA/access.json
